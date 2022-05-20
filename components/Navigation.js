@@ -8,7 +8,7 @@ const Navigation = () => {
       </Link>
       <div className="text-lg font-light">
         <Link href="/about">
-          <a className="pr-10 hover:text-white active-li">ABOUT</a>
+          <a className="pr-10 hover:text-white">ABOUT</a>
         </Link>
         <Link href="/blog">
           <a className="pr-10 hover:text-white">BLOG</a>

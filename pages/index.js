@@ -1,7 +1,8 @@
 import Head from "next/head";
 // import favicon from "../public/images/avataaars.png";
-import favicon from "../public/avataaars.ico";
+
 import Page from "../components/page";
+import HomePage from "../components/HomePage";
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
       <Head>
         <title>Himali Malvawala</title>
         <meta name="description" content="Himali Malvawala's Personal Site." />
-        <link rel="icon" href={favicon} />
+        <link rel="icon" href="/avataaars.ico" />
       </Head>
-      <h1>Okay!!!!</h1>
+      <HomePage />
     </Page>
   );
 }

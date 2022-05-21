@@ -12,7 +12,12 @@ const HomePage = () => {
       </div>
       <div className="h-4/6 shadow-2xl bg-light-yellow w-3/12 absolute bottom-0 left-96 rounded-md">
         <div className="text-center pt-8">
-          <Image width={200} height={200} src="/images/Image.png" />
+          <Image
+            width={200}
+            height={200}
+            src="/images/Image.png"
+            alt="himali malvawala profile picture"
+          />
         </div>
         <div className="text-center text-3xl font-bold pt-4">
           Himali
@@ -25,19 +30,31 @@ const HomePage = () => {
         </div>
         <div className=" bg-white pt-4 pb-4 mt-9 rounded-b-md">
           <div className="flex justify-evenly mb-0">
-            <a href="https://twitter.com/HimaliMalvawala" target={"_blank"}>
+            <a
+              href="https://twitter.com/HimaliMalvawala"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
               <FaTwitter size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/himalimalvawala/"
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               <FaLinkedin size={20} className="hover:shrink-0" />
             </a>
-            <a href="https://github.com/Himali-Malvawala" target={"_blank"}>
+            <a
+              href="https://github.com/Himali-Malvawala"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
               <FaGithub size={20} />
             </a>
-            <a href="mailto: himalimalvawala@gmail.com">
+            <a
+              href="mailto: himalimalvawala@gmail.com"
+              rel="noopener noreferrer"
+            >
               <HiMail size={20} />
             </a>
           </div>

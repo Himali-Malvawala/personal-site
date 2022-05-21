@@ -25,6 +25,7 @@ const About = () => {
           usually I listen to{"   "}
           <span>
             <a
+              rel="noopener noreferrer"
               target={"_blank"}
               className="underline hover:text-blue"
               href="https://open.spotify.com/artist/46d1ndWtnYj9kxd3IlQykV?si=I09Io-dATHuIAL7TNX8Hiw"
@@ -36,6 +37,7 @@ const About = () => {
           I have developed habit of reading books. The most recent one is{" "}
           <span>
             <a
+              rel="noopener noreferrer"
               target={"_blank"}
               className="underline hover:text-blue"
               href="https://www.navalmanack.com/"
@@ -46,6 +48,7 @@ const About = () => {
           and currently I'm reading{" "}
           <span>
             <a
+              rel="noopener noreferrer"
               target={"_blank"}
               className="underline hover:text-blue"
               href="https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20&%20going/README.md#you-dont-know-js-up--going"
@@ -62,6 +65,7 @@ const About = () => {
           Account called {"   "}
           <span>
             <a
+              rel="noopener noreferrer"
               className="underline hover:text-blue"
               target={"_blank"}
               href="https://instagram.com/day_journalising?igshid=YmMyMTA2M2Y="
@@ -77,6 +81,7 @@ const About = () => {
           apps or email me at{" "}
           <span>
             <a
+              rel="noopener noreferrer"
               className="underline hover:text-blue"
               href="mailto: himalimalvawala@gmail.com"
             >

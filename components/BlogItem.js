@@ -9,6 +9,7 @@ const BlogItem = (props) => {
           height={200}
           src={props.image}
           className="rounded-md"
+          alt="computer setup Image"
         />
       </div>
       <div className="flex-auto text-left pt-2">
@@ -16,6 +17,7 @@ const BlogItem = (props) => {
           className="text-2xl text-cyan-700 font-semibold hover:underline"
           href="https://himali-malvawala.netlify.app/git-repository/"
           target={"_blank"}
+          rel="noopener noreferrer"
         >
           {props.title}
         </a>

@@ -9,6 +9,7 @@ const Contact = () => {
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://twitter.com/HimaliMalvawala"
           target={"_blank"}
+          rel="noopener noreferrer"
         >
           Twitter
         </a>
@@ -16,6 +17,7 @@ const Contact = () => {
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://www.linkedin.com/in/himalimalvawala/"
           target={"_blank"}
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
@@ -23,12 +25,14 @@ const Contact = () => {
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://github.com/Himali-Malvawala"
           target={"_blank"}
+          rel="noopener noreferrer"
         >
           Github
         </a>
         <a
           className="text-xl hover:text-blue font-medium"
           href="mailto: himalimalvawala@gmail.com"
+          rel="noopener noreferrer"
         >
           Mail
         </a>

@@ -4,7 +4,9 @@ const Navigation = () => {
   return (
     <nav className="flex justify-between py-8 px-14 bg-yellow">
       <Link href="/">
-        <a className="font-mono text-3xl font-semibold">Himali Malvawala</a>
+        <a className="font-mono text-3xl font-semibold hover:text-blue">
+          Himali Malvawala
+        </a>
       </Link>
       <div className="text-lg font-light">
         <Link href="/about">

@@ -8,18 +8,21 @@ const Contact = () => {
         <a
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://twitter.com/HimaliMalvawala"
+          target={"_blank"}
         >
           Twitter
         </a>
         <a
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://www.linkedin.com/in/himalimalvawala/"
+          target={"_blank"}
         >
           LinkedIn
         </a>
         <a
           className="pr-20 text-xl hover:text-blue font-medium"
           href="https://github.com/Himali-Malvawala"
+          target={"_blank"}
         >
           Github
         </a>

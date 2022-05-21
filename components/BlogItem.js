@@ -15,6 +15,7 @@ const BlogItem = (props) => {
         <a
           className="text-2xl text-cyan-700 font-semibold hover:underline"
           href="https://himali-malvawala.netlify.app/git-repository/"
+          target={"_blank"}
         >
           {props.title}
         </a>

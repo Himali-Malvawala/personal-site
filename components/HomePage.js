@@ -25,13 +25,16 @@ const HomePage = () => {
         </div>
         <div className=" bg-white pt-4 pb-4 mt-9 rounded-b-md">
           <div className="flex justify-evenly mb-0">
-            <a href="https://twitter.com/HimaliMalvawala">
+            <a href="https://twitter.com/HimaliMalvawala" target={"_blank"}>
               <FaTwitter size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/himalimalvawala/">
+            <a
+              href="https://www.linkedin.com/in/himalimalvawala/"
+              target={"_blank"}
+            >
               <FaLinkedin size={20} className="hover:shrink-0" />
             </a>
-            <a href="https://github.com/Himali-Malvawala">
+            <a href="https://github.com/Himali-Malvawala" target={"_blank"}>
               <FaGithub size={20} />
             </a>
             <a href="mailto: himalimalvawala@gmail.com">

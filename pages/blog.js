@@ -1,10 +1,10 @@
-import Page from "../components/Page";
+import Template from "../components/Template";
 
 import BlogItem from "../components/BlogItem";
 
 const Blog = () => {
   return (
-    <Page>
+    <Template>
       <div className="text-center mt-14">
         <h1 className="text-5xl font-bold">Blog</h1>
         <BlogItem
@@ -15,7 +15,7 @@ const Blog = () => {
           description="Create you own Github repository from existing projects."
         />
       </div>
-    </Page>
+    </Template>
   );
 };
 

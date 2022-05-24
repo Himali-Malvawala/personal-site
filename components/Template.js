@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 
-const Page = (props) => {
+const Template = (props) => {
   return (
     <div>
       <Navigation />
@@ -11,4 +11,4 @@ const Page = (props) => {
   );
 };
 
-export default Page;
+export default Template;

@@ -1,12 +1,12 @@
-import Page from "../components/Page";
+import Template from "../components/Template";
 
 import AboutContent from "../components/AboutContent";
 
 const About = () => {
   return (
-    <Page>
+    <Template>
       <AboutContent />
-    </Page>
+    </Template>
   );
 };
 

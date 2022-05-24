@@ -1,5 +1,4 @@
 import Head from "next/head";
-// import favicon from "../public/images/avataaars.png";
 
 import Page from "../components/page";
 import HomePage from "../components/HomePage";

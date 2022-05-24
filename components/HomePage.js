@@ -1,68 +1,19 @@
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
-
-import Image from "next/image";
+import DivContent from "./DivContent";
 
 const HomePage = () => {
   return (
     <div className="static">
-      <div className="flex">
-        <div className="bg-blue h-screen flex-auto w-6"></div>
-        <div className="bg-white h-screen flex-auto w-96"></div>
+      <div className="container flex flex-col md:flex md:flex-row">
+        <div className="bg-blue w-screen h-96 md:flex-auto md:w-6 md:h-screen"></div>
+        <div className="bg-white w-screen h-72  md:flex-auto md:w-96 md:h-screen"></div>
       </div>
-      <div className="h-4/6 shadow-2xl bg-light-yellow w-3/12 absolute bottom-0 left-96 rounded-md">
-        <div className="text-center pt-8">
-          <Image
-            width={200}
-            height={200}
-            src="/images/Image.png"
-            alt="himali malvawala profile picture"
-          />
-        </div>
-        <div className="text-center text-3xl font-bold pt-4">
-          Himali
-          <br />
-          Malvawala
-        </div>
-        <div className="w-16 ml-40 border-t-2 mt-5 mb-5 border-blue text-center"></div>
-        <div className="text-center italic text-2xl font-light">
-          WEB DEVELOPER
-        </div>
-        <div className=" bg-white pt-4 pb-4 mt-9 rounded-b-md">
-          <div className="flex justify-evenly mb-0">
-            <a
-              href="https://twitter.com/HimaliMalvawala"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FaTwitter size={20} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/himalimalvawala/"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin size={20} className="hover:shrink-0" />
-            </a>
-            <a
-              href="https://github.com/Himali-Malvawala"
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
-              <FaGithub size={20} />
-            </a>
-            <a
-              href="mailto: himalimalvawala@gmail.com"
-              rel="noopener noreferrer"
-            >
-              <HiMail size={20} />
-            </a>
-          </div>
-        </div>
+      <div className="shadow-2xl bg-light-yellow rounded-md h-3/5 w-5/6 absolute top-60 left-9 md:w-3/12 md:h-4/6 md:left-96">
+        <DivContent />
       </div>
-      <div className="absolute right-96 bottom-36 w-80">
-        <h1 className="text-8xl font-black pb-10">Hello</h1>
-        <p className="text-lg text-zinc-700">
+      <div className="mt-6 ml-11 md:absolute md:right-80 md:bottom-20 md:w-96">
+        <h1 className="font-black text-5xl mb-6 md:text-8xl md:mb-10">Hello</h1>
+        <p className="text-zinc-700 text-xl pr-9 mb-16 md:text-lg">
+          {" "}
           I'm Himali Malvawala and I'm a Web Developer, building
           web-apps(sites). I learned Web Development recently and so far its
           going great. I'm building new websites and this is one of them.

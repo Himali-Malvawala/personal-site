@@ -13,6 +13,15 @@ export default function Home() {
           content="I'm Himali Malvawala and I'm a Web Developer, building
           web-apps(sites)."
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="Himali Malvawala" />
+        <meta name="twitter:title" content="Himali Malvawala" />
+        <meta
+          name="twitter:description"
+          content="I'm Himali Malvawala and I'm a Web Developer, building
+          web-apps(sites)."
+        />
+        <meta name="twitter:creator" content="Himali Malvawala" />
         <link rel="icon" href="/avataaars.ico" />
       </Head>
       <HomePage />

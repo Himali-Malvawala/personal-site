@@ -31,7 +31,7 @@ const ContactContent = () => {
         </a>
         <a
           className="hover:text-blue font-medium text-xl mr-2 md:mr-0 lg:mr-0 xl:mr-0"
-          href="mailto: himalimalvawala@gmail.com"
+          href="mailto: itsme@himalimalvawala.com"
           rel="noopener noreferrer"
         >
           Mail

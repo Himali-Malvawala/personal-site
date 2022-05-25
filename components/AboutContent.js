@@ -76,9 +76,9 @@ const AboutContent = () => {
           <a
             rel="noopener noreferrer"
             className="underline hover:text-blue"
-            href="mailto: himalimalvawala@gmail.com"
+            href="mailto: itsme@himalimalvawala.com"
           >
-            himalimalvawala@gmail.com
+            itsme@himalimalvawala.com
           </a>
         </span>
       </p>

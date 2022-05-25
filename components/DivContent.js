@@ -50,7 +50,7 @@ const DivContent = () => {
           </a>
           <a
             className="mt-5 mb-5 xl:mt-4 xl:mb-4"
-            href="mailto: himalimalvawala@gmail.com"
+            href="mailto: itsme@himalimalvawala.com"
             rel="noopener noreferrer"
           >
             <HiMail size={20} />

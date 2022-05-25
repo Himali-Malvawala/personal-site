@@ -6,7 +6,7 @@ import Image from "next/image";
 const DivContent = () => {
   return (
     <div className="text-center">
-      <div className="mt-8">
+      <div className="mt-8 md:ml-7">
         <Image
           width={200}
           height={200}
@@ -19,12 +19,13 @@ const DivContent = () => {
         <br />
         Malvawala
       </p>
-      <div className="w-16 border-t-2 border-blue text-center ml-32 mt-6 mb-6 md:ml-40 md:mt-5 md:mb-5"></div>
-      <p className="italic text-2xl font-light">WEB DEVELOPER</p>
+      <div className="w-16 border-t-2 border-blue text-center m-auto mt-6 mb-4"></div>
+      <p className="italic text-2xl font-light md:mt-6">WEB DEVELOPER</p>
+
       <div className="container rounded-b-md bg-white">
-        <div className="flex justify-evenly mt-14 md:mt-9">
+        <div className="flex justify-evenly mt-14 xl:mt-9">
           <a
-            className="mt-5 mb-5 md:mt-4 md:mb-4"
+            className="mt-5 mb-5 xl:mt-4 xl:mb-4"
             href="https://twitter.com/HimaliMalvawala"
             target={"_blank"}
             rel="noopener noreferrer"
@@ -32,7 +33,7 @@ const DivContent = () => {
             <FaTwitter size={20} />
           </a>
           <a
-            className="mt-5 mb-5 md:mt-4 md:mb-4"
+            className="mt-5 mb-5 xl:mt-4 xl:mb-4"
             href="https://www.linkedin.com/in/himalimalvawala/"
             target={"_blank"}
             rel="noopener noreferrer"
@@ -40,7 +41,7 @@ const DivContent = () => {
             <FaLinkedin size={20} className="hover:shrink-0" />
           </a>
           <a
-            className="mt-5 mb-5 md:mt-4 md:mb-4"
+            className="mt-5 mb-5 xl:mt-4 xl:mb-4"
             href="https://github.com/Himali-Malvawala"
             target={"_blank"}
             rel="noopener noreferrer"
@@ -48,7 +49,7 @@ const DivContent = () => {
             <FaGithub size={20} />
           </a>
           <a
-            className="mt-5 mb-5 md:mt-4 md:mb-4"
+            className="mt-5 mb-5 xl:mt-4 xl:mb-4"
             href="mailto: himalimalvawala@gmail.com"
             rel="noopener noreferrer"
           >

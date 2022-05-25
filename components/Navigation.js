@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
 const Navigation = () => {
@@ -45,7 +45,7 @@ const Navigation = () => {
             <div className="w-5 h-1 bg-blue mb-1"></div>
             <div className="w-5 h-1 bg-blue mb-1"></div>
             <div className="w-5 h-1 bg-blue"></div>
-            {isClicked && (
+            {isClicked ? (
               <div className="absolute right-20 top-0 h-48 w-6/12 bg-white  transition-all duration-300 border-double border-blue border-2 rounded-md shadow z-10">
                 <ul className="flex flex-col items-center w-full text-lg font-base">
                   <li className="hover:text-blue cursor-pointer mt-8">
@@ -59,6 +59,8 @@ const Navigation = () => {
                   </li>
                 </ul>
               </div>
+            ) : (
+              <div onClick={closeModal}></div>
             )}
           </button>
         </div>

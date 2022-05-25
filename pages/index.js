@@ -8,7 +8,11 @@ export default function Home() {
     <Template>
       <Head>
         <title>Himali Malvawala</title>
-        <meta name="description" content="Himali Malvawala's Personal Site." />
+        <meta
+          name="description"
+          content="I'm Himali Malvawala and I'm a Web Developer, building
+          web-apps(sites)."
+        />
         <link rel="icon" href="/avataaars.ico" />
       </Head>
       <HomePage />

@@ -1,7 +1,7 @@
 const AboutContent = () => {
   return (
-    <div className="mt-14 text-left mx-9 mb-14 md:w-7/12 md:text-left md:ml-80 md:mb-24">
-      <h1 className="text-5xl font-bold text-center md:mb-14">About</h1>
+    <div className="mt-14 text-left mx-9 mb-14 md:w-7/12 md:m-auto md:mt-14 md:mb-20 lg:w-7/12 lg:m-auto lg:mt-14 lg:mb-24 xl:w-7/12 xl:ml-80 xl:mb-24">
+      <h1 className="text-5xl font-bold text-center xl:mb-14">About</h1>
       <p className="text-xl text-gray-700 mt-11">
         Hey!! My name is Himali Malvawala and I'm a web developer. I learned Web
         Development recently, so I guess I can call myself a beginner and as a

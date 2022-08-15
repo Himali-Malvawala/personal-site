@@ -21,6 +21,7 @@ export default function Home() {
           content="I'm Himali Malvawala and I'm a Web Developer, building
           web-apps(sites)."
         />
+        <meta name="twitter:image" content="/images/avataaars.png" />
         <meta name="twitter:creator" content="Himali Malvawala" />
         <link rel="icon" href="/avataaars.ico" />
       </Head>

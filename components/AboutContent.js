@@ -3,10 +3,11 @@ const AboutContent = () => {
     <div className="mt-14 text-left mx-9 mb-14 md:w-7/12 md:m-auto md:mt-14 md:mb-20 lg:w-7/12 lg:m-auto lg:mt-14 lg:mb-24 xl:w-7/12 xl:ml-80 xl:mb-24">
       <h1 className="text-5xl font-bold text-center xl:mb-14">About</h1>
       <p className="text-xl text-gray-700 mt-11">
-        Hey!! My name is Himali Malvawala and I'm a web developer. I learned Web
-        Development recently, so I guess I can call myself a beginner and as a
-        beginner to really get into that coding mindset I keep creating websites
-        and keep learning new things.
+        Hey!! My name is Himali Malvawala and I'm a software developer. I
+        learned Web Development back in 2021 and its been a hell of journey ,
+        from learning web Development - to applying for work - to getting my
+        first client and to now where I'm happy and that I chose to have a
+        career in this field.
       </p>
       <p className="text-xl text-gray-700 mt-9">
         So How it all started?. Well, I have a degree in Business Administration

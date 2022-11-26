@@ -20,7 +20,7 @@ const DivContent = () => {
         Malvawala
       </p>
       <div className="w-16 border-t-2 border-blue text-center m-auto mt-6 mb-4"></div>
-      <p className="italic text-2xl font-light md:mt-6">WEB DEVELOPER</p>
+      <p className="italic text-2xl font-light md:mt-6">SOFTWARE DEVELOPER</p>
 
       <div className="container rounded-b-md bg-white">
         <div className="flex justify-evenly mt-14 xl:mt-9">

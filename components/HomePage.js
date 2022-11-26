@@ -12,9 +12,8 @@ const HomePage = () => {
             </h1>
             <p className="text-zinc-700 text-xl pr-9 mb-16 md:text-xl xl:text-lg">
               {" "}
-              I'm Himali Malvawala and I'm a Web Developer, building
-              web-apps(sites). I learned Web Development recently and so far its
-              going great. I'm building new websites and this is one of them.
+              I'm Himali Malvawala and I'm a software Developer, building
+              web-apps and sites.
             </p>
           </div>
         </div>

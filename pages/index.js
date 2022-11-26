@@ -18,8 +18,8 @@ export default function Home() {
         <meta name="twitter:title" content="Himali Malvawala" />
         <meta
           name="twitter:description"
-          content="I'm Himali Malvawala and I'm a Web Developer, building
-          web-apps(sites)."
+          content="I'm Himali Malvawala and I'm a Software Developer, building
+              web-apps and sites."
         />
         <meta name="twitter:image" content="/images/avataaars.png" />
         <meta name="twitter:creator" content="Himali Malvawala" />

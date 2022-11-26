@@ -12,7 +12,7 @@ const HomePage = () => {
             </h1>
             <p className="text-zinc-700 text-xl pr-9 mb-16 md:text-xl xl:text-lg">
               {" "}
-              I'm Himali Malvawala and I'm a software Developer, building
+              I'm Himali Malvawala and I'm a Software Developer, building
               web-apps and sites.
             </p>
           </div>

@@ -18,7 +18,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="shadow-2xl bg-light-yellow rounded-md h-fit w-5/6 absolute top-60 left-9 sm:left-14 md:left-28 md:top-48 md:w-9/12 lg:w-3/12 lg:left-44 xl:w-3/12 xl:h-4/6 xl:left-96">
+      <div className="shadow-2xl bg-light-yellow rounded-md h-fit w-5/6 absolute top-60 left-9 sm:left-14 md:left-28 md:top-48 md:w-9/12 lg:w-4/12 lg:left-[18%] xl:w-4/12 xl:left-96 2xl:w-3/12">
         <DivContent />
       </div>
     </div>

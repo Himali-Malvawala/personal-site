@@ -15,9 +15,11 @@ const Template = (props) => {
       <Head>
         <title>Himali Malvawala</title>
       </Head>
-      <Navigation />
-      {props.children}
-      <Footer />
+      <div className="flex flex-col min-h-screen">
+        <Navigation />
+        <div className="flex-1">{props.children}</div>
+        <Footer />
+      </div>
     </div>
   );
 };

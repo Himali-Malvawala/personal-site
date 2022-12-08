@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="flex flex-col lg:flex lg:flex-row justify-center items-center">
-        <div className="bg-blue w-screen h-96 lg:flex-auto lg:w-6 lg:h-screen"></div>
+        <div className="bg-blue w-screen h-96 lg:flex-auto lg:w-36 lg:h-screen"></div>
         <div className="bg-white w-screen h-fit lg:flex-auto lg:w-96 lg:h-screen  xl:flex-auto xl:w-96 xl:h-screen">
           <div className="ml-10 mt-80 md:ml-28 md:mt-80 xl:mt-36 xl:ml-60 md:m-auto md:w-8/12 lg:w-96 xl:w-80 ">
             <h1 className="font-black text-5xl mb-6 md:text-6xl lg:text-7xl lg:mb-10 xl:text-8xl xl:mb-10">

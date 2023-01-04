@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-yellow">
       <p className="px-14 py-10 font-normal text-center ">
-        Himali Malvawala © {year}
+        Himali Malvawala © 2022-{year}
       </p>
     </div>
   );
